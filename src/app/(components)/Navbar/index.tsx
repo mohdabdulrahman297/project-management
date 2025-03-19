@@ -16,7 +16,7 @@ const Navbar = () => {
       {/* items */}
       <div className="flex items-center">
         <Link href="/settings" className="h-min rounded p-2 hover:bg-gray-100">
-        <Settings className="h-6 w-6 cursor-pointer dark:text-white"/>
+        <Settings className="h-6 w-6 cursor-pointer dark:text-gray-800"/>
         </Link>
         <div className="ml-2 mr-5 hidden min-h-[2rem] w-[0.1rem] bg-gray-200 md:inline-block"></div>
       </div>
